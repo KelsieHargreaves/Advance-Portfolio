@@ -241,6 +241,7 @@ nav {
 
 #landing-page {
     min-height: 100vh;
+
 }
 
 .header {
@@ -306,9 +307,10 @@ nav {
     border: none;
     background-color: #381b22;
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 32px;
     right: 40px;
+    z-index: 100;
 }
 
 .scroll {
