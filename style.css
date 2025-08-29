@@ -543,6 +543,11 @@ nav {
 
 /* Projects */
 
+.project {
+    list-style-type: none;
+ 
+}
+
 .projects__header {
     font-size: 48px;
     text-align: center;
@@ -561,6 +566,8 @@ nav {
     box-shadow: 0 20px 80px 0;
     color: rgba (0, 0, 0, 0.45);
     overflow: hidden;
+    margin-bottom: 32px;
+
 }
 
 .project__wrapper:hover .project__wrapper--background {
